@@ -1,2 +1,2 @@
 # sdn-network-analyzer
-SDN (Software-Defined Networking) Network Analyzer in Python.
+SDN (Software-Defined Network) Traffic Analyzer, Topology Visualiser in Python with RYU Controller for communication with Mininet SDN virtual network.
