@@ -2,6 +2,7 @@ from mininet.net import Mininet
 from mininet.topo import Topo
 from topology_visualiser import create_topology, display_topology
 import controller
+import packet_analyzer
 
 
 def visualiser():
@@ -21,13 +22,10 @@ def visualiser():
     net.stop()
 
 
-def controller():
-    controller.RyuController()
-
-
 def main():
+    controller.RyuController()
     visualiser()
-    controller()
+    packet_analyzer.main()
 
 
 if __name__ == '__main__':
